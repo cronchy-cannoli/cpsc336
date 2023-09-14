@@ -1,7 +1,5 @@
 #!/bin/sh
 
-sudo -i
-echo student
 echo LEFT > /etc/hostname
 echo auto enp0s8 >> /etc/network/interfaces
 echo iface enp0s8 inet static >> /etc/network/interfaces
